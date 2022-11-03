@@ -21,6 +21,7 @@ public class person {
         	 
         	 email element = this.email[i];
         	 System.out.println(element);
+        	 
         	
          }
 	}
