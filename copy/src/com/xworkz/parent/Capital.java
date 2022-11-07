@@ -1,4 +1,4 @@
-package com.xworkz.Inheritance;
+package com.xworkz.parent;
 
 public class Capital extends Place {
 

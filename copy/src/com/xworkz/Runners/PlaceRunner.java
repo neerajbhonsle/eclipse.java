@@ -1,5 +1,10 @@
 package com.xworkz.Runners;
-import com.xworkz.Inheritance.*;
+import com.xworkz.parent.Bangalore;
+import com.xworkz.parent.Capital;
+import com.xworkz.parent.City;
+import com.xworkz.parent.MetroCity;
+import com.xworkz.parent.SiliconCity;
+import com.xworkz.parent.Place;
 public class PlaceRunner {
 
 	public static void main(String[] args) {
