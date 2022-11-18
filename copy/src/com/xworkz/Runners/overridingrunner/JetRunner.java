@@ -10,7 +10,8 @@ public class JetRunner {
 			jet.fly();
 			System.out.println("$$$$$$");
 			jet.war();
-			System.out.println("&^*&^%^&*");
+			System.out.println("&^*&^%^&*"
+					+ "");
 		}
 	}
 
