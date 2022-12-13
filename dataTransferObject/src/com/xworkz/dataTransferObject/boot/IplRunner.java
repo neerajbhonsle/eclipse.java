@@ -18,9 +18,9 @@ public class IplRunner {
 		team1.setWins(120);
 		team1.setDefeats(97);
 		team1.setCreatedBy("SYSTEM");
-		team1.setCreatedDate(LocalDateTime.of(2022, 12, 12, 7, 52));
+		team1.setCreatedDate(LocalDateTime.now());
 		team1.setUpdatedBy("USER");
-		team1.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 7, 54));
+		team1.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team1);
 
 		System.out.println("*************************************************************");
@@ -32,9 +32,9 @@ public class IplRunner {
 		team2.setWins(107);
 		team2.setDefeats(120);
 		team2.setCreatedBy("SYSTEM");
-		team2.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 0));
+		team2.setCreatedDate(LocalDateTime.now());
 		team2.setUpdatedBy("USER");
-		team2.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 02));
+		team2.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team2);
 
 		System.out.println("*************************************************************");
@@ -46,9 +46,9 @@ public class IplRunner {
 		team3.setWins(106);
 		team3.setDefeats(122);
 		team3.setCreatedBy("SYSTEM");
-		team3.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 3));
+		team3.setCreatedDate(LocalDateTime.now());
 		team3.setUpdatedBy("USER");
-		team3.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 4));
+		team3.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team3);
 
 		System.out.println("*************************************************************");
@@ -60,9 +60,9 @@ public class IplRunner {
 		team4.setWins(130);
 		team4.setDefeats(90);
 		team4.setCreatedBy("SYSTEM");
-		team4.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 4));
+		team4.setCreatedDate(LocalDateTime.now());
 		team4.setUpdatedBy("USER");
-		team4.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 5));
+		team4.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team4);
 
 		System.out.println("*************************************************************");
@@ -74,9 +74,9 @@ public class IplRunner {
 		team5.setWins(10);
 		team5.setDefeats(7);
 		team5.setCreatedBy("SYSTEM");
-		team5.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 6));
+		team5.setCreatedDate(LocalDateTime.now());
 		team5.setUpdatedBy("USER");
-		team5.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 7));
+		team5.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team5);
 
 		System.out.println("*************************************************************");
@@ -88,9 +88,9 @@ public class IplRunner {
 		team6.setWins(108);
 		team6.setDefeats(100);
 		team6.setCreatedBy("SYSTEM");
-		team6.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 8));
+		team6.setCreatedDate(LocalDateTime.now());
 		team6.setUpdatedBy("USER");
-		team6.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 9));
+		team6.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team6);
 
 		System.out.println("*************************************************************");
@@ -102,9 +102,9 @@ public class IplRunner {
 		team7.setWins(105);
 		team7.setDefeats(110);
 		team7.setCreatedBy("SYSTEM");
-		team7.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 10));
+		team7.setCreatedDate(LocalDateTime.now());
 		team7.setUpdatedBy("USER");
-		team7.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 11));
+		team7.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team7);
 
 		System.out.println("*************************************************************");
@@ -116,9 +116,9 @@ public class IplRunner {
 		team8.setWins(100);
 		team8.setDefeats(125);
 		team8.setCreatedBy("SYSTEM");
-		team8.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 12));
+		team8.setCreatedDate(LocalDateTime.now());
 		team8.setUpdatedBy("USER");
-		team8.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 13));
+		team8.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team8);
 
 		System.out.println("*************************************************************");
@@ -130,9 +130,9 @@ public class IplRunner {
 		team9.setWins(101);
 		team9.setDefeats(113);
 		team9.setCreatedBy("SYSTEM");
-		team9.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 14));
+		team9.setCreatedDate(LocalDateTime.now());
 		team9.setUpdatedBy("USER");
-		team9.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 15));
+		team9.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team9);
 
 		System.out.println("*************************************************************");
@@ -144,11 +144,25 @@ public class IplRunner {
 		team10.setWins(12);
 		team10.setDefeats(2);
 		team10.setCreatedBy("SYSTEM");
-		team10.setCreatedDate(LocalDateTime.of(2022, 12, 12, 8, 15));
+		team10.setCreatedDate(LocalDateTime.now());
 		team10.setUpdatedBy("USER");
-		team10.setUpdatedDate(LocalDateTime.of(2022, 12, 12, 8, 16));
+		team10.setUpdatedDate(LocalDateTime.now());
 		iplRepository.createTeams(team10);
+		System.out.println("*************************************************************");
+		IplDTO team11 = new IplDTO();
+		team11.setTeamName("SHR");
+		team11.setCaptainName("Kane");
+		team11.setOwnerAlive(true);
+		team11.setPurse(86);
+		team11.setWins(101);
+		team11.setDefeats(113);
+		team11.setCreatedBy("SYSTEM");
+		team11.setCreatedDate(LocalDateTime.now());
+		team11.setUpdatedBy("USER");
+		team11.setUpdatedDate(LocalDateTime.now());
+		iplRepository.createTeams(team11);
 
+		
 	}
 
 }

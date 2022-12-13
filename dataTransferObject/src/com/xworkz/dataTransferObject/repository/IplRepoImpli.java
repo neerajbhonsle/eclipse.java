@@ -14,8 +14,8 @@ public class IplRepoImpli implements IplRepository {
 			throw new IplTeamLimitExceedException();
 		}
 		this.ipl[this.currentIplTeams] = dto;
-		currentIplTeams++;
 		System.out.println("saved" + dto + "index is " + currentIplTeams);
+		currentIplTeams++;
 		return true;
 	}
 
