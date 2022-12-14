@@ -33,6 +33,7 @@ public class WarRepoImpli implements WarRepo {
 		for (WarDTO dto : fight) {
 			if (dto != null && dto.getStartedBy().equalsIgnoreCase(startedBy)) {
 				System.out.println("war startedby " + startedBy);
+				return dto;
 			}
 
 		}
