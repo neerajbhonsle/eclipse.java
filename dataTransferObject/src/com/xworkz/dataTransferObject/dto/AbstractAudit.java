@@ -10,13 +10,21 @@ public abstract class AbstractAudit implements Serializable {
 	private LocalDateTime updatedDate;
 
 	public AbstractAudit() {
-		System.out.println("Running no-arg constr from iplTeams");
+		
 	}
 
 	@Override
 	public String toString() {
 		return "AbstractAudit [createdBy=" + createdBy + ", createdDate=" + createdDate + ", updatedBy=" + updatedBy
 				+ ", updatedDate=" + updatedDate + "]";
+	}
+
+	public AbstractAudit(String createdBy, LocalDateTime createdDate, String updatedBy, LocalDateTime updatedDate) {
+		super();
+		this.createdBy = createdBy;
+		this.createdDate = createdDate;
+		this.updatedBy = updatedBy;
+		this.updatedDate = updatedDate;
 	}
 
 	public String getCreatedBy() {
