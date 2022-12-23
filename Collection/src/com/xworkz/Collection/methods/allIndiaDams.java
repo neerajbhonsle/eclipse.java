@@ -481,13 +481,24 @@ public class allIndiaDams {
 		}
 		System.out.println("=======================================");
 
-		Iterator<String> checkPalindrome = damsInIndia.iterator();
-		while (checkPalindrome.hasNext()) {
-			String element = checkPalindrome.next();
-			if()
-			System.out.println("Element with lower case " + element));
-	
-}	}
+		Iterator<String> remove = damsInIndia.iterator();
+		while (remove.hasNext()) {
+			String element = remove.next();
+			if (element.contains("P"))
+				System.out.println("Removing all dams it contains P " + element);
+			remove.remove();
+		}
+
+		Iterator<String> palindrome = damsInIndia.iterator();
+		while (palindrome.hasNext()) {
+			String element = (String) palindrome.next();
+			StringBuffer buffer = new StringBuffer(element);
+			buffer.reverse();
+			String reverse = buffer.toString();
+			if (element.equalsIgnoreCase(reverse)) {
+				System.err.println("Palindrome " + reverse);
+			}
+		}
 	}
 
 }
