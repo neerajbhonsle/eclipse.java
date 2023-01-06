@@ -36,7 +36,7 @@ public class WeaponRunner {
 		dto.add(new WeaponDTO("Thompson", "sharath", LocalDate.of(2020, 02, 2), 294D, WeaponType.ARTILLERY));
 
 		System.out.println("Price > 6000 and their names");
-		dto.stream().filter((ele) -> ele.getPrice() > 6000).collect(Collectors.toList())
+		dto.stream().filter((ele) -> ele.getPrice() > 210).collect(Collectors.toList())
 				.forEach(e -> System.out.println(e.getName()));
 
 		System.out.println("Print all made by and made on");
