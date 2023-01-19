@@ -8,7 +8,7 @@ import com.xworkz.soldier.Service.SoldierServiceImpli;
 public class SoldierRunner {
 
 	public static void main(String[] args) {
-		SoldierDTO dto = new SoldierDTO("AlluArjun", 54, "Topper", "kashmir", "india");
+		SoldierDTO dto = new SoldierDTO("un", 54, "Topper", "kashmir", "india");
 
 		SoldierServiceImpli impli = new SoldierServiceImpli();
 		SoldierRepo repo = new SoldierRepoImpli();
