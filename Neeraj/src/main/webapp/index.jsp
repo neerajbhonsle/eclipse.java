@@ -77,7 +77,6 @@
 	</ul>
 	</form>
 	<form action="marks">
-	<h6>display: Education DTO:${cards}</h6>
 	<input type="submit" value="showEducation"/><br>
     <label>name:${cards.name}</label><br>
     <label>schoolName:${cards.schoolName}</label><br>
