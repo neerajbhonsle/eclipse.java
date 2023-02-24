@@ -34,7 +34,7 @@
 	</h3>
 	<form action="find" method="get">
 		SearchById<input type="text" name="id" /> <input type="submit"
-			value="search" required="required">
+			value="search" required>
 	</form>
 	<div>
 		<h4>result</h4>
